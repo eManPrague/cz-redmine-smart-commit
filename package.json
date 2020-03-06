@@ -1,0 +1,42 @@
+{
+  "name": "@emanprague/cz-redmine-smart-commit",
+  "version": "1.0.0",
+  "description": "A commitizen adapter for Redmine smart commits",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eManPrague/cz-redmine-smart-commit"
+  },
+  "keywords": [
+    "commitizen",
+    "commitizen adapter",
+    "redmine",
+    "redmine smart commit"
+  ],
+  "author": "Jan Strnadek <jan.strnadek@eman.cz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eManPrague/cz-redmine-smart-commit/issues"
+  },
+  "homepage": "https://github.com/eManPrague/cz-redmine-smart-commit/",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "7.1.0",
+    "sinon": "9.0.0",
+    "sinon-chai": "3.5.0"
+  },
+  "dependencies": {
+    "conventional-commit-types": "^3.0.0",
+    "current-git-branch": "^1.1.0",
+    "inquirer": "^7.0.6",
+    "lodash.map": "^4.6.0",
+    "longest": "^2.0.1",
+    "right-pad": "^1.0.1"
+  }
+}
